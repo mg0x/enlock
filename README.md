@@ -1,4 +1,4 @@
-## 📜 Enlock - File Encryption Tool
+## 📜Enlock - File Encryption Tool
 
 Enlock is a simple command-line file encryption tool written in Golang. It simplifies the generation RSA key pairs, the encryption and decryption of files using AES-256, and ensures secure file transmission.
 

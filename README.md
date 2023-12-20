@@ -16,13 +16,13 @@ Enlock is a simple command-line file encryption tool written in Golang. It simpl
 
 When you use Enlock to encrypt a file or directory, it creates a zip file that contains the following:
 
-- 📄 Encrypted File/Directory: The content of the file or directory is encrypted using AES-256.
+- Encrypted File/Directory: The content of the file or directory is encrypted using AES-256.
 
-- 🔑 AES Key File: A file containing the randomly generated AES-256 key used for encryption. This key is encrypted using the recipient's public key.
+- AES Key File: A file containing the randomly generated AES-256 key used for encryption. This key is encrypted using the recipient's public key.
 
-- 🌐 Public Key File: The RSA public key of the recipient.
+- Public Key File: The RSA public key of the recipient.
 
-- 🔒 Encrypted Private Key File: Your private key, encrypted with a AES-256 key generated from the user passphrase using Argon2i KDF.
+- Encrypted Private Key File: Your private key, encrypted with a AES-256 key generated from the user passphrase using Argon2i KDF.
 
 
 ### Installation
